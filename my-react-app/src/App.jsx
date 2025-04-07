@@ -3,7 +3,7 @@ import "./App.css"
 
 function App() {
   const easyWords = ["I am speed", "Typing like a pro", "Why so slow"]
-  const mediumWords = ["This sentence is harder than it looks", "One typo and I lose all respect", "Your keyboard is slower than a snail"]
+  const mediumWords = ["This sentence is harder than it looks", "One typo and I lose all respect", "Your keyboard is slower than a snail","I tried coding a love letter but ended up with a bug that flirts"]
   const hardWords = ["The mitochondria is the powerhouse of the cell", "The quick brown fox jumps over the lazy dog", "Typing perfectly is simply a myth conjured by keyboards plotting revenge"]
 
   const [currentWord, setCurrentWord] = useState("")
